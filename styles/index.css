@@ -1,3 +1,34 @@
+* {
+    margin: 0;
+}
+
+/* Had to add above code because I was getting a white bar above my navbar desbite normalize.css. */
+
 body {
     min-height: 100vh;
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: dodgerblue;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
 }
